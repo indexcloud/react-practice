@@ -1,0 +1,33 @@
+.Header {
+	background-color: grey;
+	padding: 0 30px;
+	height: 60px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Header h2 {
+	color: white;
+}
+
+.Nav {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Nav li {
+	list-style-type: none;
+}
+
+.Nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+.Nav li a:hover,
+.Nav li a:active {
+	color: red;
+}

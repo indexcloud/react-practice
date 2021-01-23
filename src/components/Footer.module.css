@@ -1,0 +1,12 @@
+.Footer {
+	background-color: grey;
+	padding: 0 30px;
+	height: 60px;
+
+	display: flex;
+	align-items: center;
+}
+
+.Footer h2 {
+	color: white;
+}
