@@ -2,6 +2,8 @@ import React, {Component} from "react";
 
 import classes from "./Header.module.css";
 
+import {Link} from "react-router-dom";
+
 class Header extends Component {
 	render() {
 		return (
@@ -9,13 +11,13 @@ class Header extends Component {
 				<h2>Header</h2>
 				<ul className={classes.Nav}>
 					<li>
-						<a href="#">home</a>
+						<Link to="/">home</Link>
 					</li>
 					<li>
-						<a href="#">feed</a>
+						<Link to="/feed">feed</Link>
 					</li>
 					<li>
-						<a href="#">faq</a>
+						<Link to="/faq">faq</Link>
 					</li>
 				</ul>
 			</div>
